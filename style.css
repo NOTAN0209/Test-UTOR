@@ -1,0 +1,68 @@
+*{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bodyContent{
+    width: 1600px;
+    height: 1000px;
+    background-color:rgb(189, 187, 184);
+}
+
+.bigCircle{
+    position: absolute;
+    width:1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: rgb(51, 107, 71);
+    top:-200px;
+    left: -200px;
+}
+
+.redTriangle{
+    position: absolute; 
+    width:200px;
+    height: 200px;
+    border: 200px solid transparent;
+    border-right: 200px solid red;
+    border-bottom: 200px solid red;
+    top:0px;
+    right: 0px;
+}
+
+.smallCircle{
+    position: absolute;
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(84, 165, 112);
+    top:500px;
+    left:800px; 
+    z-index: 2; 
+}
+
+.purpureRectangle{
+    position: absolute;
+    width:900px;
+    height: 300px; 
+    border-radius: 55px;
+    background-color: rgb(157, 60, 152);
+    top:850px;
+    left:400px; 
+    z-index: 3; 
+}
+
+.blueRectangle{
+    position: absolute;
+    width:780px;
+    height: 250px; 
+    background-color: rgb(39, 30, 168);
+    transform: skewY(45deg);
+    top:500px;
+    left:400px;  
+    z-index: 1;
+}
